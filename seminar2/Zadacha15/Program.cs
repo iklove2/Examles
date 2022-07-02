@@ -15,5 +15,5 @@ else if (dayNumber >= 1 && dayNumber < 6)
 }
 else if (dayNumber < 1 || dayNumber > 7)
 {
-    Console.WriteLine($"Дня недели с номером {dayNumber} нет");
+    Console.WriteLine($"Дня недели с номером {dayNumber} нет ");
 }
