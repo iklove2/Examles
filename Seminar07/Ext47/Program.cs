@@ -18,9 +18,9 @@ double[,] generateArray(int rowNumber, int colNumber, int deviation, int MidPoin
         {
             randomelement = new Random().Next(-deviation * 1000, deviation * 1000 + 1);
             division = new Random().Next(deviation, deviation * 100 + 1);
-            Console.WriteLine(Math.Round(randomelement / division, MidPointRound));
+            //Console.WriteLine(Math.Round(randomelement / division, MidPointRound));
             result[i, j] = Math.Round(randomelement / division, MidPointRound);
-            Console.WriteLine(result[i, j]);
+            //Console.WriteLine(result[i, j]);
         }
     }
     return result;
