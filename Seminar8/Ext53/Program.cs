@@ -47,6 +47,7 @@ void printArray(int[,] array, string nameOfArray = "")
         Console.WriteLine();
     }
 }
+
 int[,] deepCloneArray(int[,] array)
 {
     int[,] result = new int[array.GetLength(0),array.GetLength(1)];     
